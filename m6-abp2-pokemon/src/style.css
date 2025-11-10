@@ -1,0 +1,54 @@
+/* Fuente y fondo general */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Título principal */
+h1 {
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+/* Estilos de la tabla */
+table {
+  width: 80%;
+  margin: 0 auto; /* Centra horizontalmente */
+  border: 2px solid #0d6efd; /* Borde general */
+  border-collapse: collapse; /* Une los bordes */
+}
+
+/* Bordes internos y centrado de texto */
+th,
+td {
+  border: 1px solid #ccc !important;
+  text-align: center;
+  padding: 0.75rem;
+  vertical-align: middle;
+}
+
+/* Encabezados */
+th {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* Filas pares */
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Párrafo informativo */
+p {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 500;
+}
